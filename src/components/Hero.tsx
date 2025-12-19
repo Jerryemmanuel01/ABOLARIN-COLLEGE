@@ -16,7 +16,7 @@ export default function Hero() {
           priority
         />
         {/* Lighter gradient for better visibility */}
-        <div className="absolute inset-0 bg-gradient-to-b from-primary-900/75 via-primary-800/65 to-primary-900/80" />
+        <div className="absolute inset-0 bg-black/80" />
       </div>
 
       {/* Enhanced Animated Background Shapes */}
@@ -105,7 +105,7 @@ export default function Hero() {
 
             {/* Tagline with gradient */}
             <motion.p
-              className="text-2xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-teal-500 via-purple-500 to-teal-300 bg-clip-text text-transparent"
+              className="text-2xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-violet-200 via-teal-400 to-purple-300 bg-clip-text text-transparent"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
